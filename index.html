@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>X.type</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+	<button class="edit" onclick="openNav()">edit</button>
+
+	<div class="actions" id="actions">
+		<div class="handler">
+			<label>Speed</label>
+			<input type="range" class="speed slider" min="0.01" max="0.5" step="0.0005" value="0.1">
+		</div>
+
+		<div class="handler">
+			<label>Matrix Size</label>
+			<input type="range" class="size slider" min="10" max="100" step="10" value="10">
+			
+		</div>
+		
+		<div class="handler">
+			<label>X Axis</label>
+			<input type="range" class="distortX slider" min="0" max="50" step="1" value="10">
+		</div>
+
+		<div class="handler">
+			<label>Y Axis</label>
+			<input type="range" class="distortY slider" min="0" max="50" step="1" value="10">
+		</div>
+		
+		<div class="handler">
+			<label>Text</label>
+			<input type="text" class="inputOne" value="X.type">
+		</div>
+
+		<button href="javascript:void(0)" class="close" onclick="closeNav()">done</button>
+
+	</div>
+
+	<p class="save">Press "ENTER" to save a frame</p>
+
+	
+
+</body>
+
+<script src="js/p5.min.js"></script>
+<script src="js/sketch.js"></script>
+
+</html>
