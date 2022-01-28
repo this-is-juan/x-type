@@ -2,9 +2,8 @@
 
 @font-face {
 	font-family: SpaceGrotesk;
-	src: url('fonts/spacegrotesk-medium.otf');
+	src: url('assets/spacegrotesk-medium.otf');
 }
-
 
 body {
 	background-color: #FFF; 
@@ -13,6 +12,36 @@ body {
 	margin: 0;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
+}
+
+ img.thisisjuan {
+     width: 80px;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 4vw;
+}
+
+ .buttons {
+     display: flex;
+     align-items: center;
+}
+
+button.icons {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+    background: #E5E5E5;
+    border-radius: 1rem;
 }
 
 canvas {
