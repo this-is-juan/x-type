@@ -77,14 +77,8 @@ inputOne.addEventListener("input", function(){
 }) 
 
 
-function keyPressed(){
-  
-  //if the key is a s
-  if(keyCode == ENTER){
-    //save out to a file
+function saveImage(){
     save('exported.png');
-  }
-  
 }
 
 function openNav() {
