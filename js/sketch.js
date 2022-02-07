@@ -12,7 +12,7 @@ const distortY = document.querySelector("input.distortY")
 
 function preload () {
 
-	font = loadFont("assets/spacegrotesk-medium.otf")
+	font = loadFont("fonts/spacegrotesk-medium.otf")
 
 }
 
